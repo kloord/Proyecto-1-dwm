@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de Desempeño del Alumno</title>
+    <link rel="stylesheet" href="/CSS/formulario-eval.css">
+</head>
+<body>
+    <div class="evaluation-form-container">
+        <h2>Evaluación de Desempeño del Alumno</h2>
+        <form action="/HTML/save_eval.html" method="get">
+            <label for="evaluator-name">Nombre del Evaluador:</label>
+            <input type="text" id="evaluator-name" name="evaluator-name" required>
+
+            <label for="evaluator-role">Rol del Evaluador:</label>
+            <select id="evaluator-role" name="evaluator-role" required>
+                <option value="docente">Docente a Cargo</option>
+                <option value="empleador">Empleador</option>
+            </select>
+
+            <label for="student-name">Nombre del Alumno:</label>
+            <input type="text" id="student-name" name="student-name" required>
+
+            <label for="evaluation-date">Fecha de Evaluación:</label>
+            <input type="date" id="evaluation-date" name="evaluation-date" required>
+
+            <label for="performance-rating">Calificación de Desempeño:</label>
+            <select id="performance-rating" name="performance-rating" required>
+                <option value="excelente">Excelente</option>
+                <option value="bueno">Bueno</option>
+                <option value="regular">Regular</option>
+                <option value="deficiente">Deficiente</option>
+            </select>
+
+            <label for="comments">Comentarios Adicionales:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Escriba sus comentarios aquí..."></textarea>
+
+            <button type="submit">Enviar Evaluación</button>
+        </form>
+    </div>
+</body>
+</html>
