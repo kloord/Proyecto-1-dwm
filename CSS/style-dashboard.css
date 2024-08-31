@@ -1,6 +1,5 @@
-/* Estilos para el header */
 header {
-    background-color: #333;
+    background-color: #850000f2;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -39,7 +38,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: brown;
+    height: 76vh;
+    background-image: url('/IMAGENES/Casona-2-scaled.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .dashboard-container {
@@ -54,9 +56,7 @@ body {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
-    border: solid #000000 1px;
-    background-color: brown;
+    background-color: #000dff;
     color: #fff;
 }
 
@@ -79,6 +79,6 @@ h2 {
 }
 
 .dashboard-container nav ul li a:hover {
-    background-color: brown;
+    background-color: #000560;
     color: #fff;
 }

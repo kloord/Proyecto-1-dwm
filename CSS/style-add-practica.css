@@ -1,8 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 76vh;
+    background-image: url('/IMAGENES/Casona-2-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #850000f2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .nav-bar-general h1 {
+    margin: 1px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ffffff35;
+    text-decoration: none;
 }
 
 .practice-form-container {
@@ -31,12 +68,13 @@ input[type="text"], input[type="date"], textarea {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    resize: none;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #000dff;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -44,5 +82,5 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #000560;
 }

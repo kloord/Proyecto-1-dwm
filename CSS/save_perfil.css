@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     height: 76vh;
@@ -42,11 +43,11 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.practice-details-container {
+.save-perfil-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffffc4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
@@ -61,23 +62,17 @@ p {
     margin: 10px 0;
 }
 
-.profile-picture img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
-
-.edit-button {
+.back-button {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px 15px;
     background-color: #000dff;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-.edit-button:hover {
-    background-color: #000560;
+.back-button:hover {
+    background-color:#000560;
 }

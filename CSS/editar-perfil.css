@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     height: 76vh;
@@ -42,7 +43,7 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.practice-details-container {
+.edit-practice-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
@@ -57,27 +58,58 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
-    margin: 10px 0;
+/* Estilos para la imagen de perfil */
+.profile-picture {
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .profile-picture img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
-.edit-button {
+.upload-button {
     display: inline-block;
+    margin-top: 10px;
     padding: 8px 12px;
     background-color: #000dff;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
-    text-align: center;
-    margin-top: 15px;
+    cursor: pointer;
 }
 
-.edit-button:hover {
+.upload-button:hover {
+    background-color: #000560;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000dff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
     background-color: #000560;
 }

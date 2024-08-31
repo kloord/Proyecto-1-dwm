@@ -3,13 +3,51 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 76vh;
+    background-image: url('/IMAGENES/Casona-2-scaled.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.save-practice-container {
+header {
+    background-color: #850000f2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .nav-bar-general h1 {
+    margin: 1px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ffffff35;
+    text-decoration: none;
+}
+
+.save-eval-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffffc4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
@@ -27,7 +65,7 @@ p {
 .back-button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #000dff;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -36,5 +74,5 @@ p {
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color:#000560;
 }

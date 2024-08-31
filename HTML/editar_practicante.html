@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Práctica</title>
+    <link rel="stylesheet" href="/CSS/editar_practicante.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar-general">
+            <h1>PRACTICAS UNAB</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/HTML/index.html">Inicio</a></li>
+                <li><a href="/HTML/añadir-practica.html">Añadir practica</a></li>
+                <li><a href="/HTML/formulario-evaluacion.html">Evaluación</a></li>
+                <li><a href="/HTML/perfil-user.html">Mi Perfil</a></li>
+                <li><a href="/AUTENTICACION/login.html">Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="edit-practicante-container">
+        <h2>Editar Perfil de Practicante</h2>
+
+        <!-- Imagen de perfil del alumno -->
+        <div class="profile-picture">
+            <img src="/IMAGENES/WhatsApp Image 2024-04-25 at 22.46.14.jpg" alt="Foto de Perfil del Alumno">
+            <label for="profile-picture-upload" class="upload-button">Cambiar Foto</label>
+            <input type="file" id="profile-picture-upload" style="display:none;">
+        </div>
+
+        <form action="/HTML/save_perfil.html" method="get">
+            <label for="student-name">Nombre:</label>
+            <input type="text" id="student-name" name="student-name" value="Juan Pérez">
+            <label for="practice-date">Fecha de la Práctica:</label>
+            <input type="date" id="practice-date" name="practice-date" value="2024-08-24">
+
+            <label for="practice-description">Descripción:</label>
+            <textarea id="practice-description" name="practice-description" rows="4">Rol que cumple.</textarea>
+
+            <button type="submit">Guardar Cambios</button>
+        </form>
+    </div>
+</body>
+</html>
